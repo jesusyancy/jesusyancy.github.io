@@ -1,4 +1,17 @@
-.navbar .dropdown-menu {
-  border: 1px solid var(--global-divider-color);
-  border-bottom: none;
+/* Theme Toggle Button Styles */
+.theme-toggle {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Navbar Link Colors for Dark Mode */
+.navbar a {
+    color: #ffffff; /* Light color for dark mode */
+}
+
+.navbar a:hover {
+    color: #ccc; /* Hover effect color */
 }
